@@ -14,10 +14,10 @@
     <h4><a href="https://github.com/jysaa5">김주연</a></h4>
   </li>
     <li>
-    <h4><a href="">임성환</a></h4>
+    <h4><a href="https://github.com/SeongHwan-Lim">임성환</a></h4>
   </li>
     <li>
-    <h4><a href="">정주비</a></h4>
+    <h4><a href="https://github.com/JoobeeJung">정주비</a></h4>
   </li>
   </ul>
 <h3>[교육 과정]</h3>
