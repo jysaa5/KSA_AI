@@ -38,8 +38,8 @@ double std(double arr[])
 {
 
 	//double aResult = avg(arr);
-	double aResult = 5;
-	double result = 0;
+	double avg_value = 5;
+	double std_value = 0;
 	double dev[10];
 	double pNum[10];
 
@@ -47,14 +47,16 @@ double std(double arr[])
 
 	for (int i = 0; i < 10; i++) {
 	
-		dev[i] = arr[i] - aResult;
+		dev[i] = arr[i] - avg_value;
 		pNum[i] = pow(dev[i], 2);
-		var += pNum[i]/10;
+		var += pNum[i];
 	
 	}
 
-	result = sqrt(var);
+	var = var / 10;
 
-	return result;
+	std_value = sqrt(var);
+
+	return std_value;
 
 }
