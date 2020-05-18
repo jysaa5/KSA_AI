@@ -24,3 +24,7 @@
 <ul>
   <li> Language: C | Java </li>
   </ul>
+<h3>[팀 프로젝트]</h3>
+<ul>
+  <li><h4><a href="https://github.com/jysaa5/KSA_AI/blob/master/C_Language/KJY_20200515/20200515_TeamProject.c">최대값/최소값/평균값/표준편차 함수 구현</a></h4></li>
+  </ul>
