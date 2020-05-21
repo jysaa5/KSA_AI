@@ -2,6 +2,12 @@
 2020.05.11 ~ 2020.11.13 <br>
 한국표준협회 - 2020년도 혁신성장 청년인재 집중양성 사업에 참여하고 있는 교육생 김주연(JooYeon Kim)입니다. <br>
 <hr>
+<h3>[팀]</h3>
+<ul>
+  <li>
+    <h4><a href="https://github.com/ksa-banana/C_Language">Banana</a></h4>
+  </li>
+  </ul>
 <h3>[팀장]</h3>
 <ul>
   <li>
