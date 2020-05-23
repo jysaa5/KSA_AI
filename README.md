@@ -28,7 +28,7 @@
   </ul>
 <h3>[교육 과정]</h3>
 <ul>
-  <li> Language: C | Java </li>
+  <li> Language: C | Java | 빅데이터 기반 기술 </li>
   </ul>
 <h3>[팀 프로젝트]</h3>
 <ul>
