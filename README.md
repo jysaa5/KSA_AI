@@ -32,5 +32,13 @@
   </ul>
 <h3>[팀 프로젝트]</h3>
 <ul>
-  <li><h5><a href="https://github.com/jysaa5/KSA_AI/blob/master/C_Language/KJY_20200515/20200515_TeamProject.c">최대값/최소값/평균값/표준편차 함수 구현 - C</a></h5></li>
+  <li>
+    <h5><a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200515/version_1.0">최대, 최소, 평균, 표준편차 함수 구현</a></h5>
+  </li>
+  <li>
+    <h5><a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200518/version_1.0">데이터 구조체 생성, 데이터 입력, 정렬 출력 구현</a></h5>
+  </li>
+    <li>
+    <h5><a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200519/version_1.1">Excel(CSV) 파일 읽기, 데이터 구조체 생성, 데이터 검색, 파일 출력 </a></h5>
+  </li>
   </ul>
