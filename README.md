@@ -6,11 +6,13 @@
 <ul>
   <li> Language: C | Java | Python </li>
   <li> Database: Oracle | MySQL </li>
-  <li> Tool: Visual Studio 2019 | Notepad++ | Eclipse | </li>
+  <li> Tool: Visual Studio 2019 | Notepad++ | Eclipse | sqldeveloper | MySQL Workbench 8.0CE </li>
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
+  <li> Server: PuTTY</li>
   <li> Operating System(OS): Window | Linux </li>
+  <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS </li>
   <li> Software Configuration Management tool: GitHub </li>
   </ul>
 <h3>[팀]</h3>
