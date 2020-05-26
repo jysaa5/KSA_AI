@@ -4,7 +4,7 @@
 <hr>
 <h3>[교육 과정]</h3>
 <ul>
-  <li> Language: C | Java </li>
+  <li> Language: C | Java | Python </li>
   <li> Tool: Visual Studio 2019 | Notepad++ | VMware Workstation 15 Player | Eclipse | </li>
   <li> Web Application Server(WAS): Tomcat </li>
   <li> Operating System(OS): Window | Linux </li>
