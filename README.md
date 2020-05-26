@@ -34,6 +34,7 @@
     <h4><a href="https://github.com/JoobeeJung">정주비</a></h4>
   </li>
   </ul>
+<hr>
 <h3>[팀 프로젝트]</h3>
 <ul>
   <li>
