@@ -6,7 +6,7 @@
 <ul>
   <li> Language: C | Java | Python </li>
   <li> Database: Oracle | MySQL </li>
-  <li> Tool: Visual Studio 2019 | Notepad++ | Eclipse | sqldeveloper | MySQL Workbench 8.0CE </li>
+  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | sqldeveloper | MySQL Workbench 8.0CE </li>
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
