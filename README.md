@@ -13,7 +13,7 @@
   <li> Server: PuTTY</li>
   <li> Operating System(OS): Window | Linux </li>
   <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS </li>
-  <li> Software Configuration Management tool: GitHub </li>
+  <li> Software Configuration Management tool: GitHub | DockerHub </li>
   </ul>
 <h3>[팀]</h3>
 <ul>
