@@ -2,6 +2,12 @@
 2020.05.11 ~ 2020.11.13 <br>
 한국표준협회 - 2020년도 혁신성장 청년인재 집중양성 사업에 참여하고 있는 교육생 김주연(JooYeon Kim)입니다. <br>
 <hr>
+<h3>[교육 과정]</h3>
+<ul>
+  <li> Language: C | Java </li>
+  <li> Tool: Visual Studio </li>
+  <li> Server: Apache</li>
+  </ul>
 <h3>[팀]</h3>
 <ul>
   <li>
@@ -25,10 +31,6 @@
     <li>
     <h4><a href="https://github.com/JoobeeJung">정주비</a></h4>
   </li>
-  </ul>
-<h3>[교육 과정]</h3>
-<ul>
-  <li> Language: C | Java | 빅데이터 기반 기술 </li>
   </ul>
 <h3>[팀 프로젝트]</h3>
 <ul>
