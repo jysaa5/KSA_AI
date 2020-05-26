@@ -5,6 +5,7 @@
 <h3>[교육 과정]</h3>
 <ul>
   <li> Language: C | Java | Python </li>
+  <li> Database: Oracle | MySQL </li>
   <li> Tool: Visual Studio 2019 | Notepad++ | Eclipse | </li>
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
