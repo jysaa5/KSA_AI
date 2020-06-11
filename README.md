@@ -14,7 +14,7 @@
   <li> Machine Learning Library: TensorFlow </li>
   <li> Operating System(OS): Window | Linux </li>
   <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS </li>
-  <li> Software Configuration Management ool: GitHub | DockerHub </li>
+  <li> Software Configuration Management Tool: GitHub | DockerHub </li>
   </ul>
   <hr>
   <h3>[교육 내용]</h3>
