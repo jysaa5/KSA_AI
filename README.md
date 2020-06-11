@@ -16,10 +16,12 @@
   <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS </li>
   <li> Software Configuration Management tool: GitHub | DockerHub </li>
   </ul>
+  <hr>
   <h3>[교육 내용]</h3>
   <h3>[모듈_01]</h3>
   <h3>[모듈_02]</h3>
   <h3>[모듈_03]</h3>
+  <hr>
 <h3>[팀]</h3>
 <ul>
   <li>
