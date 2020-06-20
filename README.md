@@ -12,7 +12,7 @@
   <li> Web Application Server(WAS): Tomcat </li>
   <li> Server: PuTTY</li>
   <li> Machine Learning Library: TensorFlow </li>
-  <li> Operating System(OS): Window | Linux </li>
+  <li> Operating System(OS): Windows | Linux </li>
   <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS </li>
   <li> Software Configuration Management Tool: git | GitHub | DockerHub </li>
   </ul>
