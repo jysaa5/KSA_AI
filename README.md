@@ -10,7 +10,8 @@
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
-  <li> Server: PuTTY</li>
+  <li> Server: PuTTY </li>
+  <li> Server Side Software: node.js </li>
   <li> Machine Learning Library: TensorFlow </li>
   <li> Operating System(OS): Windows | Linux </li>
   <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS </li>
