@@ -71,6 +71,6 @@
     <h4><a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200519/version_1.1">Excel(CSV) 파일 읽기, 데이터 구조체 생성, 데이터 검색, 파일 출력 </a></h4>
   </li>
   <li>
-    <h4>공학용 계산기</h4>
+    <h4><a href="https://github.com/ksa-banana/Java_Programming">공학용 계산기</a></h4>
   </li>
   </ul>
