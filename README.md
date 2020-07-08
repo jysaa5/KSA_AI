@@ -5,12 +5,13 @@
 <h3>[교육 과정]</h3>
 <ul>
   <li> Language: C | Java | Python </li>
-  <li> Database: Oracle | MySQL </li>
-  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | sqldeveloper | MySQL Workbench 8.0CE | Jupyter Notebook </li>
+  <li> Database: MySQL | MariaDB</li>
+  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | HeidiSQL | Jupyter Notebook | eXERD |  </li>
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
-  <li> Server: PuTTY </li>
+  <li> Server: Apache Tomcat(Web Application Server)</li>
+  <li> Terminal Emulator: PuTTY</li>
   <li> Server Side Software: node.js </li>
   <li> Machine Learning Library: TensorFlow </li>
   <li> Operating System(OS): Windows | Linux </li>
