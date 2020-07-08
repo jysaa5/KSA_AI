@@ -10,11 +10,13 @@
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
+  <li> Server: Apache HTTP Server </li>
   <li> Terminal Emulator: PuTTY</li>
   <li> Server Side Software: node.js </li>
   <li> Machine Learning Library: TensorFlow </li>
   <li> Operating System(OS): Windows | Linux </li>
-  <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS </li>
+  <li> Network monitoring: Nagios </li>
+  <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS, S3 </li>
   <li> Software Configuration Management Tool: git | gitlab | GitHub | DockerHub | TortoiseGit </li>
   </ul>
   <hr>
@@ -27,7 +29,7 @@
   <ul> 
   <li><h5>컴퓨터 정보의 표현과 문자집합 </h5></li>
   <li><h5>서버가상화 기술 </h5></li>
-  <li><h5>빅데이터 시스템 아키텍처의 이해</h5></li>
+  <li><h5>빅데이터 시스템 아키텍처의 이해 </h5></li>
   <li><h5>Linux Administration </h5></li>
   <li><h5>관계형 데이터베이스 </h5></li>
   </ul>
@@ -37,9 +39,9 @@
   <h4>[모듈_04] 머신러닝 서버구축 </h4>
   <h4>[모듈_05] 보안 시스템 및 모니터링 시스템 </h4>
   <ul>
-  <li><h5>가상 서버에서 Nagios(시스템 모니터링 응용 프로그램)를 이용하여 Client 모니터링</h5></li>
+  <li><h5>가상 서버에서 Nagios(시스템 모니터링 응용 프로그램)를 이용하여 Client 모니터링 </h5></li>
   </ul>
-  <h4></h4>
+  <h4>[모듈_06] 빅데이터 분석 시스템 구축 및 활용 </h4>
   <hr>
 <h3>[팀]</h3>
 <ul>
