@@ -6,8 +6,8 @@
 <ul>
   <li> Language: C | Java | Python </li>
   <li> Database: MySQL | MariaDB</li>
-  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | HeidiSQL | Jupyter Notebook | PyCharm | eXERD |  </li>
-  <li> Hypervisor: VMware Workstation 15 Player</li>
+  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | PyCharm | eXERD | Anaconda | Android Studio  </li>
+  <li> Hypervisor: VMware Workstation 15 Player | Oracle VM VirtualBox </li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
   <li> Server: Apache HTTP Server </li>
@@ -16,6 +16,7 @@
   <li> Machine Learning Library: TensorFlow </li>
   <li> Operating System(OS): Windows | Linux </li>
   <li> Network monitoring: Nagios </li>
+  <li> Packet Analyzer: Wireshark </li>
   <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS, S3 </li>
   <li> Software Configuration Management Tool: git | gitlab | GitHub | DockerHub | TortoiseGit </li>
   </ul>
