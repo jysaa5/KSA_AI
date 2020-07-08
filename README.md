@@ -10,7 +10,6 @@
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
-  <li> Server: Apache Tomcat(Web Application Server)</li>
   <li> Terminal Emulator: PuTTY</li>
   <li> Server Side Software: node.js </li>
   <li> Machine Learning Library: TensorFlow </li>
@@ -40,6 +39,7 @@
   <ul>
   <li><h5>가상 서버에서 Nagios(시스템 모니터링 응용 프로그램)를 이용하여 Client 모니터링</h5></li>
   </ul>
+  <h4></h4>
   <hr>
 <h3>[팀]</h3>
 <ul>
