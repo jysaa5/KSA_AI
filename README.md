@@ -6,7 +6,7 @@
 <ul>
   <li> Language: C | Java | Python </li>
   <li> Database: MySQL | MariaDB</li>
-  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | HeidiSQL | Jupyter Notebook | eXERD |  </li>
+  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | HeidiSQL | Jupyter Notebook | PyCharm | eXERD |  </li>
   <li> Hypervisor: VMware Workstation 15 Player</li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
