@@ -41,13 +41,25 @@
   <h4>[모듈_03] 개발 환경 및 모델 구축 </h4>
   
   <h4>[JAVA] 자바 프로그래밍 </h4>
+  <ul>
+  <li>Java</li>
+  <li>Eclipse</li>
+  </ul>
   
   <h4>[Python] 파이썬 프로그래밍 </h4>
+  <ul>
+  <li>Python</li>
+  <li>Jupyter Notebook</li>
+  </ul>
   
   <h4>[모듈_04] 머신러닝 서버구축 </h4>
   <ul>
-  <li>Tensorflow</li>
   <li>Anaconda</li>
+  <li>Tensorflow, Tensorflow-gpu</li>
+  <li>Keras</li>
+  <li>Jupyter Notebook</li>
+  <li>PyCharm</li>
+  <li>MNIST ANN, MNIST CNN, CIFAR-10 CNN</li>
   </ul>
   
   <h4>[모듈_05] 보안 시스템 및 모니터링 시스템 </h4>
