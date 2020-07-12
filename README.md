@@ -56,8 +56,11 @@
   <li>빅데이터 개념, 처리 과정, 수집, 통합 기술, 저장, 관리 기술, 처리 기술</li>
   <li>리눅스(Linux)</li>
   <li>AWS EC2</li>
+  <li>Kaggle</li>
+  <li>공공데이터 포털</li>
   <li>ElasticSearch</li>
   <li>Kibana</li>
+  <li>Splunk</li>
   </ul>
   <hr>
 
