@@ -6,7 +6,7 @@
 <ul>
   <li> Language: C | Java | Python </li>
   <li> Database: MySQL | MariaDB</li>
-  <li> Big Data: ElasticSearch </li>
+  <li> Big Data: ElasticSearch | Kibana | Splunk | Kaggle | 공공데이터포털</li>
   <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | PyCharm | eXERD | Anaconda | Android Studio  </li>
   <li> Hypervisor: VMware Workstation 15 Player | Oracle VM VirtualBox </li>
   <li> Operating-System-Level Virtualization: Docker </li>
@@ -55,7 +55,7 @@
   <ul>
   <li>빅데이터 개념, 처리 과정, 수집, 통합 기술, 저장, 관리 기술, 처리 기술</li>
   <li>리눅스(Linux)</li>
-  <li>AWS EC2</li>
+  <li>AWS EC2, S3</li>
   <li>Kaggle</li>
   <li>공공데이터 포털</li>
   <li>ElasticSearch</li>
