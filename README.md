@@ -6,6 +6,7 @@
 <ul>
   <li> Language: C | Java | Python </li>
   <li> Database: MySQL | MariaDB</li>
+  <li> Big Data: ElasticSearch </li>
   <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | PyCharm | eXERD | Anaconda | Android Studio  </li>
   <li> Hypervisor: VMware Workstation 15 Player | Oracle VM VirtualBox </li>
   <li> Operating-System-Level Virtualization: Docker </li>
@@ -51,6 +52,13 @@
   </ul>
   
   <h4>[모듈_06] 빅데이터 분석 시스템 구축 및 활용 </h4>
+  <ul>
+  <li>빅데이터 개념, 처리 과정, 수집, 통합 기술, 저장, 관리 기술, 처리 기술</li>
+  <li>리눅스(Linux)</li>
+  <li>AWS EC2</li>
+  <li>ElasticSearch</li>
+  <li>Kibana</li>
+  </ul>
   <hr>
 
 <h3>[팀]</h3>
