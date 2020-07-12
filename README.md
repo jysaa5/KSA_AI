@@ -45,10 +45,19 @@
   <h4>[Python] 파이썬 프로그래밍 </h4>
   
   <h4>[모듈_04] 머신러닝 서버구축 </h4>
+  <ul>
+  <li>Tensorflow</li>
+  <li>Anaconda</li>
+  </ul>
   
   <h4>[모듈_05] 보안 시스템 및 모니터링 시스템 </h4>
   <ul>
+  <li>보안, 인증</li>
+  <li>보안 시스템, 모니터링 시스템</li>
+  <li>리눅스(Linux)</li>
   <li>가상 서버에서 Nagios(시스템 모니터링 응용 프로그램)를 이용하여 Client 모니터링</li>
+  <li>Oracle VM VirtualBox</li>
+  <li>Nagios</li>
   </ul>
   
   <h4>[모듈_06] 빅데이터 분석 시스템 구축 및 활용 </h4>
