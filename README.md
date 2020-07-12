@@ -79,6 +79,7 @@
   <li>가상 서버에서 Nagios(시스템 모니터링 응용 프로그램)를 이용하여 Client 모니터링</li>
   <li>Oracle VM VirtualBox</li>
   <li>Nagios</li>
+  <li>PuTTY</li>
   </ul>
   
   <h4>[모듈_06] 빅데이터 분석 시스템 구축 및 활용 </h4>
@@ -86,6 +87,7 @@
   <li>빅데이터 개념, 처리 과정, 수집, 통합 기술, 저장, 관리 기술, 처리 기술</li>
   <li>리눅스(Linux)</li>
   <li>AWS EC2, S3</li>
+  <li>PuTTY</li>
   <li>Kaggle</li>
   <li>공공데이터 포털</li>
   <li>ElasticSearch</li>
