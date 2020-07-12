@@ -21,11 +21,13 @@
   <li> Software Configuration Management Tool: git | gitlab | GitHub | DockerHub | TortoiseGit </li>
   </ul>
   <hr>
+  
   <h3>[교육 내용]</h3>
   <h4>[모듈_01] 컴퓨터과학 심화 </h4>
   <ul>
   <li><h5>C</h5></li>
   </ul>
+  
   <h4>[모듈_02] 빅데이터 기반 기술 </h4>
   <ul> 
   <li><h5>컴퓨터 정보의 표현과 문자집합 </h5></li>
@@ -34,41 +36,40 @@
   <li><h5>Linux Administration </h5></li>
   <li><h5>관계형 데이터베이스 </h5></li>
   </ul>
+  
   <h4>[모듈_03] 개발 환경 및 모델 구축 </h4>
+  
   <h4>[JAVA] 자바 프로그래밍 </h4>
+  
   <h4>[Python] 파이썬 프로그래밍 </h4>
+  
   <h4>[모듈_04] 머신러닝 서버구축 </h4>
+  
   <h4>[모듈_05] 보안 시스템 및 모니터링 시스템 </h4>
   <ul>
   <li><h5>가상 서버에서 Nagios(시스템 모니터링 응용 프로그램)를 이용하여 Client 모니터링 </h5></li>
   </ul>
+  
   <h4>[모듈_06] 빅데이터 분석 시스템 구축 및 활용 </h4>
   <hr>
+
 <h3>[팀]</h3>
 <ul>
-  <li>
-    <h4><a href="https://github.com/ksa-banana/C_Language">Banana</a></h4>
-  </li>
+  <li><a href="https://github.com/ksa-banana/C_Language">Banana</a></li>
   </ul>
 <h3>[팀장]</h3>
-<ul>
-  <li>
-    <h4><a href = "https://github.com/kang-hana" >강나래</a></h4>
-  </li>
-  </ul>
-  <h3>[팀원]</h3>
-  <ul>
-  <li>
-    <h4><a href="https://github.com/jysaa5">김주연</a></h4>
-  </li>
-    <li>
-    <h4><a href="https://github.com/SeongHwan-Lim">임성환</a></h4>
-  </li>
-    <li>
-    <h4><a href="https://github.com/JoobeeJung">정주비</a></h4>
-  </li>
-  </ul>
+ <ul>
+  <li><a href = "https://github.com/kang-hana" >강나래</a></li>
+</ul>
+  
+<h3>[팀원]</h3>
+ <ul>
+  <li><a href="https://github.com/jysaa5">김주연</a></li>
+  <li><a href="https://github.com/SeongHwan-Lim">임성환</a></li>
+  <li><a href="https://github.com/JoobeeJung">정주비</a></li>
+ </ul>
 <hr>
+
 <h3>[팀 프로젝트]</h3>
 <ul>
   <li>
