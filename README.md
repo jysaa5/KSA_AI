@@ -15,7 +15,7 @@
   <li> Terminal Emulator: PuTTY</li>
   <li> Server Side Software: node.js </li>
   <li> Machine Learning Library: TensorFlow </li>
-  <li> Operating System(OS): Windows | Linux </li>
+  <li> Operating System(OS): Windows | Linux | CentOS</li>
   <li> Network monitoring: Nagios </li>
   <li> Packet Analyzer: Wireshark </li>
   <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS, S3 </li>
@@ -27,6 +27,7 @@
   <h4>[모듈_01] 컴퓨터과학 심화</h4>
   <ul>
   <li>C</li>
+  <li>Visual Studio</li>
   </ul>
   
   <h4>[모듈_02] 빅데이터 기반 기술</h4>
@@ -36,6 +37,13 @@
   <li>빅데이터 시스템 아키텍처의 이해</li>
   <li>Linux Administration</li>
   <li>관계형 데이터베이스</li>
+  <li>Vmware Workstation Player</li>
+  <li>CentOS</li>
+  <li>PuTTY</li>
+  <li>FileZilla</li>
+  <li>tomcat8</li>
+  <li>mariadb</li>
+  <li>eXERD</li>
   </ul>
   
   <h4>[모듈_03] 개발 환경 및 모델 구축 </h4>
