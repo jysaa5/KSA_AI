@@ -72,15 +72,15 @@
 <h3>[팀 프로젝트]</h3>
 <ul>
   <li>
-    <h4><a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200515/version_1.0">최대, 최소, 평균, 표준편차 함수 구현</a></h4>
+    <a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200515/version_1.0">최대, 최소, 평균, 표준편차 함수 구현</a>
   </li>
   <li>
-    <h4><a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200518/version_1.0">데이터 구조체 생성, 데이터 입력, 정렬 출력 구현</a></h4>
+    <a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200518/version_1.0">데이터 구조체 생성, 데이터 입력, 정렬 출력 구현</a>
   </li>
     <li>
-    <h4><a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200519/version_1.1">Excel(CSV) 파일 읽기, 데이터 구조체 생성, 데이터 검색, 파일 출력 </a></h4>
+    <a href ="https://github.com/ksa-banana/C_Language/tree/master/TeamProject_20200519/version_1.1">Excel(CSV) 파일 읽기, 데이터 구조체 생성, 데이터 검색, 파일 출력 </a>
   </li>
   <li>
-    <h4><a href="https://github.com/ksa-banana/Java_Programming">공학용 계산기</a></h4>
+    <a href="https://github.com/ksa-banana/Java_Programming">공학용 계산기</a>
   </li>
   </ul>
