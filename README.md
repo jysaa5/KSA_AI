@@ -7,7 +7,7 @@
   <li> Language: C | Java | Python </li>
   <li> Database: MySQL | MariaDB</li>
   <li> Big Data: ElasticSearch | Kibana | Splunk | Kaggle | 공공데이터포털</li>
-  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | PyCharm | eXERD | Anaconda | Android Studio  </li>
+  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | PyCharm | eXERD | Anaconda | Android Studio | Visual Studio Code  </li>
   <li> Hypervisor: VMware Workstation 15 Player | Oracle VM VirtualBox </li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
@@ -39,6 +39,15 @@
   </ul>
   
   <h4>[모듈_03] 개발 환경 및 모델 구축 </h4>
+  <ul>
+  <li>git</li>
+  <li>gitlab</li>
+  <li>Tortoise git</li>
+  <li>PuTTY</li>
+  <li>Visual Studio Code</li>
+  <li>Docker</li>
+  <li>node.js</li>
+  </ul>
   
   <h4>[JAVA] 자바 프로그래밍 </h4>
   <ul>
