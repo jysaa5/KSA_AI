@@ -18,7 +18,7 @@
   <li> Operating System(OS): Windows | Linux | CentOS</li>
   <li> Network monitoring: Nagios </li>
   <li> Packet Analyzer: Wireshark </li>
-  <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, RDS, S3 </li>
+  <li> Cloud Computing Services: Amazon Web Services(AWS) - EC2, S3 </li>
   <li> Software Configuration Management Tool: git | gitlab | GitHub | DockerHub | TortoiseGit </li>
   </ul>
   <hr>
