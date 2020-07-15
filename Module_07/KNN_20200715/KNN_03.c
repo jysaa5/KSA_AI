@@ -10,12 +10,12 @@ double dist[10000 * 10000];
 int minDistIdx[10000];
 int count = 0;
 double dist_temp = 0;
-
+int dist1, dist2;
 
 void getDistAll();
 void getMinClass();
 void getRecoRate();
-
+int CalDist();
 
 
 
@@ -63,6 +63,15 @@ int main()
 
 }
 
+
+int CalDist(int test_idx, int train_idx) {
+    for (int j = 0; j < 28 * 28; j++) {
+        dist1 += (test_image[test_idx + j] - train_image[train_idx + j]) * (test_image[test_idx + j] - train_image[train_idx + j]);
+    }
+    return sqrt(dist1);
+
+}
+
 void getDistAll()
 {
 
@@ -77,7 +86,7 @@ void getDistAll()
         for (n = 0; n < 10000; n++)
         {
             for (v = 0; v < 28 * 28; v++) {
-                dist_temp += ((int)(test_image[m * num + v]-train_image[n * num + v])) * ((int)(test_image[m * num + v]-train_image[n * num + v]));
+                dist_temp += ((int)(test_image[m * num + v] - train_image[n * num + v])) * ((int)(test_image[m * num + v] - train_image[n * num + v]));
                 dist[m * 10000 + n] = sqrt(dist_temp);
             }
 
@@ -100,19 +109,20 @@ void getMinClass() {
     //struct idxDist minDistArr[10000] ;
 
 
-    getDistAll();
+    //getDistAll();
 
 
     for (int k = 0; k < 10000; k++) // 학습 데이터
     {
-
+       // dist1 = CalDist(k * 28 * 28, j * 28 * 28);
         minDist = 1e6;
         for (int j = 0; j < 10000; j++) // 테스트 데이터
         {
-            temp = dist[k * 10000 + j];
-            if (minDist > temp)
+            dist1 = CalDist(k * 28 * 28, j * 28 * 28);
+           // temp = dist[k * 10000 + j];
+            if (minDist > dist1)
             {
-                minDist = temp;
+                minDist = dist1;
                 //minDistArr[count] = temp;
                 minDistIdx[k] = train_label[j]; // 최소 거리인 클래스 저장
                 //count++;
@@ -162,12 +172,12 @@ void getMinClass() {
 void getRecoRate()
 {
     //double recoRate = 0;
-    int recoRate =0;
+    int recoRate = 0;
 
     for (int i = 0; i < 10000; i++)
     {
         if (test_label[i] == minDistIdx[i]) {
-            recoRate ++;
+            recoRate++;
         }
     }
 
