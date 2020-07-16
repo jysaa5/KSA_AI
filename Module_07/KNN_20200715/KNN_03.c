@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+// 학습: 1만 개, 테스트: 1만 개
+
 unsigned char test_image[28 * 28 * 10000];
 unsigned char train_image[28 * 28 * 10000];
 unsigned char test_label[10000];
@@ -8,11 +10,11 @@ unsigned char train_label[10000];
 
 //double dist[10000 * 10000];
 int minDistIdx[10000];
-unsigned char Lbs_minDistIdx[10000];
+unsigned char Lbp_minDistIdx[10000];
 
 
-unsigned char train_lbs_image[28 * 28 * 10000];
-unsigned char test_lbs_image[28 * 28 * 10000];
+unsigned char train_lbp_image[28 * 28 * 10000];
+unsigned char test_lbp_image[28 * 28 * 10000];
 
 
 int count = 0;
@@ -90,8 +92,8 @@ int main()
                     }
                 }
 
-                train_lbs_image[k * 28 * 28 + j * 28 + i] = val1;
-                test_lbs_image[k * 28 * 28 + j * 28 + i] = val2;
+                train_lbp_image[k * 28 * 28 + j * 28 + i] = val1;
+                test_lbp_image[k * 28 * 28 + j * 28 + i] = val2;
             }
         }
     }
@@ -118,7 +120,7 @@ int CalDist(int test_idx, int train_idx) {
 
 int LBP_CalDist(int test_idx, int train_idx) {
     for (int j = 0; j < 28 * 28; j++) {
-        dist2 += (test_lbs_image[test_idx + j] - train_lbs_image[train_idx + j]) * (test_lbs_image[test_idx + j] - train_lbs_image[train_idx + j]);
+        dist2 += (test_lbp_image[test_idx + j] - train_lbp_image[train_idx + j]) * (test_lbp_image[test_idx + j] - train_lbp_image[train_idx + j]);
     }
     return sqrt(dist2);
 
@@ -129,26 +131,28 @@ int LBP_CalDist(int test_idx, int train_idx) {
 void getMinClass() {
 
     double temp = 0;
-    double minDist = 1e6;
+    double minDist1 = 1e6;
+    double minDist2 = 1e6;
 
 
     for (int k = 0; k < 10000; k++) // 학습 데이터
     {
-        minDist = 1e6;
+        minDist1 = 1e6;
+        minDist2 = 1e6;
         for (int j = 0; j < 10000; j++) // 테스트 데이터
         {
             dist1 = CalDist(k * 28 * 28, j * 28 * 28);
             dist2 = LBP_CalDist(k * 28 * 28, j * 28 * 28);
-            if (minDist > dist1)
+            if (minDist1 > dist1)
             {
-                minDist = dist1;
+                minDist1 = dist1;
                 minDistIdx[k] = train_label[j]; // 최소 거리인 클래스 저장
             }
 
-            if (minDist > dist2)
+            if (minDist2 > dist2)
             {
-                minDist = dist2;
-                Lbs_minDistIdx[k] = train_label[j]; // 최소 거리인 클래스 저장
+                minDist2 = dist2;
+                Lbp_minDistIdx[k] = train_label[j]; // 최소 거리인 클래스 저장
 
             }
         }
@@ -169,12 +173,12 @@ void getRecoRate()
             recoRate1++;
         }
 
-        if (test_label[i] == Lbs_minDistIdx[i]) {
+        if (test_label[i] == Lbp_minDistIdx[i]) {
             recoRate2++;
         }
     }
 
-    //printf_s("정답률 : %lf", recoRate);
-    printf_s("K-NN 정답률 : %lf", (double)recoRate1 / 10000 * 100);
-    printf_s("LBP 정답률 : %lf", (double)recoRate2 / 10000 * 100);
+
+    printf_s("K-NN 정답률 : %lf\n", (double)recoRate1 / 10000 * 100);
+    printf_s("LBP 정답률 : %lf\n", (double)recoRate2 / 10000 * 100);
 }

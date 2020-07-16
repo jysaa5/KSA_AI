@@ -1,5 +1,7 @@
 #include<iostream>
 
+// C++
+
 using namespace std;
 
 int dist1, dist2;

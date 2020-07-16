@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+// 초기버전
+
 unsigned char test_image[28 * 28 * 10000];
 unsigned char train_image[28 * 28 * 10000];
 unsigned char test_label[10000];
