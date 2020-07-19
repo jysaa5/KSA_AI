@@ -34,9 +34,9 @@ plt.show()
 train_images = train_images / 255.0
 test_images = test_images / 255.0
 
-plt.figure(figsize=(10,10))
+plt.figure(figsize=(10, 10))
 for i in range(25):
-    plt.subplot(5,5,i+1)
+    plt.subplot(5, 5, i+1)
     plt.xticks([])
     plt.yticks([])
     plt.grid(False)
@@ -83,9 +83,9 @@ def plot_image(i, predictions_array, true_label, img):
 
   predicted_label = np.argmax(predictions_array)
   if predicted_label == true_label:
-    color = 'blue'
+      color = 'blue'
   else:
-    color = 'red'
+      color = 'red'
 
   plt.xlabel("{} {:2.0f}% ({})".format(class_names[predicted_label],
                                 100*np.max(predictions_array),
@@ -105,18 +105,18 @@ def plot_value_array(i, predictions_array, true_label):
   thisplot[true_label].set_color('blue')
 
 i = 0
-plt.figure(figsize=(6,3))
-plt.subplot(1,2,1)
+plt.figure(figsize=(6, 3))
+plt.subplot(1, 2, 1)
 plot_image(i, predictions, test_labels, test_images)
-plt.subplot(1,2,2)
+plt.subplot(1, 2, 2)
 plot_value_array(i, predictions,  test_labels)
 plt.show()
 
 i = 12
-plt.figure(figsize=(6,3))
-plt.subplot(1,2,1)
+plt.figure(figsize=(6, 3))
+plt.subplot(1, 2, 1)
 plot_image(i, predictions, test_labels, test_images)
-plt.subplot(1,2,2)
+plt.subplot(1, 2, 2)
 plot_value_array(i, predictions,  test_labels)
 plt.show()
 
@@ -140,7 +140,7 @@ img = test_images[0]
 print(img.shape)
 
 # 이미지 하나만 사용할 때도 배치에 추가합니다
-img = (np.expand_dims(img,0))
+img = (np.expand_dims(img, 0))
 
 print(img.shape)
 
