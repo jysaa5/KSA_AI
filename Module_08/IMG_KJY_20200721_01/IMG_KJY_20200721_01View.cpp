@@ -32,6 +32,18 @@ BEGIN_MESSAGE_MAP(CIMGKJY2020072101View, CView)
 	ON_COMMAND(ID_DOWN_SAMPLING, &CIMGKJY2020072101View::OnDownSampling)
 	ON_COMMAND(ID_UP_SAMPLING, &CIMGKJY2020072101View::OnUpSampling)
 	ON_COMMAND(ID_QUANTIZATION, &CIMGKJY2020072101View::OnQuantization)
+	ON_COMMAND(ID_SUM_CONSTANT, &CIMGKJY2020072101View::OnSumConstant)
+	ON_COMMAND(ID_SUB_CONSTANT, &CIMGKJY2020072101View::OnSubConstant)
+	ON_COMMAND(ID_MUL_CONSTANT, &CIMGKJY2020072101View::OnMulConstant)
+	ON_COMMAND(ID_DIV_CONSTANT, &CIMGKJY2020072101View::OnDivConstant)
+	ON_COMMAND(ID_AND_OPERATE, &CIMGKJY2020072101View::OnAndOperate)
+	ON_COMMAND(ID_OR_OPERATE, &CIMGKJY2020072101View::OnOrOperate)
+	ON_COMMAND(ID_XOR_OPERATE, &CIMGKJY2020072101View::OnXorOperate)
+	ON_COMMAND(ID_NEGA_TRANSFORM, &CIMGKJY2020072101View::OnNegaTransform)
+	ON_COMMAND(ID_GAMMA_CORRECTION, &CIMGKJY2020072101View::OnGammaCorrection)
+	ON_COMMAND(ID_BINARIZATION, &CIMGKJY2020072101View::OnBinarization)
+	ON_COMMAND(ID_STRESS_TRANSFORM, &CIMGKJY2020072101View::OnStressTransform)
+	ON_COMMAND(ID_HISTO_STRETCH, &CIMGKJY2020072101View::OnHistoStretch)
 END_MESSAGE_MAP()
 
 // CIMGKJY2020072101View 생성/소멸
@@ -178,4 +190,128 @@ void CIMGKJY2020072101View::OnQuantization()
 	ASSERT_VALID(pDoc);
 	pDoc->OnQuantization(); // Doc 클래스에 OnQuantization 함수 호출
 	Invalidate(TRUE); // 화면 갱신
+}
+
+
+
+
+
+void CIMGKJY2020072101View::OnSumConstant()
+{
+	// 도큐먼트 클래스 참조
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	
+	//인스턴스 주소를 가져옴
+	ASSERT_VALID(pDoc);
+
+	pDoc->OnSumConstant();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnSubConstant()
+{
+	// 도큐먼트 클래스 참조
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	
+	//인스턴스 주소를 가져옴
+	ASSERT_VALID(pDoc);
+
+	pDoc->OnSubConstant();
+
+	Invalidate(TRUE);
+
+}
+
+
+void CIMGKJY2020072101View::OnMulConstant()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument(); // 도큐먼트 클래스 참조
+	ASSERT_VALID(pDoc); // 인스턴스 주소를 가져옴
+	pDoc->OnMulConstant();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnDivConstant()
+{
+	// TODO: Add your command handler code here
+	CIMGKJY2020072101Doc* pDoc = GetDocument(); // 도큐먼트 클래스 참조
+	ASSERT_VALID(pDoc); // 인스턴스 주소를 가져옴
+	pDoc->OnDivConstant();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnAndOperate()
+{
+	// TODO: 여기에 명령 처리기 코드를 추가합니다.
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnAndOperate();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnOrOperate()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnOrOperate();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnXorOperate()
+{
+	// TODO: Add your command handler code here
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnXorOperate();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnNegaTransform()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnNegaTransform();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnGammaCorrection()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnGammaCorrection();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnBinarization()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnBinarization();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnStressTransform()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnStressTransform();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY2020072101View::OnHistoStretch()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnHistoStretch();
+	Invalidate(TRUE);
 }
