@@ -43,6 +43,8 @@ BEGIN_MESSAGE_MAP(CConstantDlg, CDialogEx)
 	ON_COMMAND(ID_NEGA_TRANSFORM, &CConstantDlg::OnNegaTransform)
 	ON_COMMAND(ID_GAMMA_CORRECTION, &CConstantDlg::OnGammaCorrection)
 	ON_COMMAND(ID_BINARIZATION, &CConstantDlg::OnBinarization)
+	ON_COMMAND(ID_LPF_SHARP, &CConstantDlg::OnLpfSharp)
+	ON_COMMAND(ID_LPF_SHARP, &CConstantDlg::OnLpfSharp)
 END_MESSAGE_MAP()
 
 
@@ -104,6 +106,12 @@ void CConstantDlg::OnGammaCorrection()
 
 
 void CConstantDlg::OnBinarization()
+{
+	// TODO: 여기에 명령 처리기 코드를 추가합니다.
+}
+
+
+void CConstantDlg::OnLpfSharp()
 {
 	// TODO: 여기에 명령 처리기 코드를 추가합니다.
 }

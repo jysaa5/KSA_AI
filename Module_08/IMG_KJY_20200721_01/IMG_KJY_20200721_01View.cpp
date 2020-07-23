@@ -20,6 +20,9 @@
 
 // CIMGKJY2020072101View
 
+
+
+
 IMPLEMENT_DYNCREATE(CIMGKJY2020072101View, CView)
 
 BEGIN_MESSAGE_MAP(CIMGKJY2020072101View, CView)
@@ -44,6 +47,28 @@ BEGIN_MESSAGE_MAP(CIMGKJY2020072101View, CView)
 	ON_COMMAND(ID_BINARIZATION, &CIMGKJY2020072101View::OnBinarization)
 	ON_COMMAND(ID_STRESS_TRANSFORM, &CIMGKJY2020072101View::OnStressTransform)
 	ON_COMMAND(ID_HISTO_STRETCH, &CIMGKJY2020072101View::OnHistoStretch)
+	ON_COMMAND(ID_END_IN_SEARCH, &CIMGKJY2020072101View::OnEndInSearch)
+
+	ON_COMMAND(ID_HISTOGRAM, &CIMGKJY2020072101View::OnHistogram)
+	ON_COMMAND(ID_HISTO_EQUAL, &CIMGKJY2020072101View::OnHistoEqual)
+	ON_COMMAND(ID_HISTO_SPEC, &CIMGKJY2020072101View::OnHistoSpec)
+	ON_COMMAND(ID_EMBOSSING, &CIMGKJY2020072101View::OnEmbossing)
+	ON_COMMAND(ID_BLURR, &CIMGKJY2020072101View::OnBlurr)
+	ON_COMMAND(ID_GAUSSIAN_FILTER, &CIMGKJY2020072101View::OnGaussianFilter)
+	ON_COMMAND(ID_SHARPENING, &CIMGKJY2020072101View::OnSharpening)
+	ON_COMMAND(ID_HPF_SHARP, &CIMGKJY2020072101View::OnHpfSharp)
+	ON_COMMAND(ID_LPF_SHARP, &CIMGKJY2020072101View::OnLpfSharp)
+	ON_COMMAND(ID_DIFF_OPERATOR_HOR, &CIMGKJY2020072101View::OnDiffOperatorHor)
+	ON_COMMAND(ID_HOMOGEN_OPERATOR, &CIMGKJY2020072101View::OnHomogenOperator)
+	ON_COMMAND(ID_LAPLACIAN, &CIMGKJY2020072101View::OnLaplacian)
+	ON_COMMAND(ID_NEAREST, &CIMGKJY2020072101View::OnNearest)
+	ON_COMMAND(ID_BILINEAR, &CIMGKJY2020072101View::OnBilinear)
+	ON_COMMAND(ID_MEDIAN_SUB, &CIMGKJY2020072101View::OnMedianSub)
+	ON_COMMAND(ID_MEAN_SUB, &CIMGKJY2020072101View::OnMeanSub)
+	ON_COMMAND(ID_TRANSLATION, &CIMGKJY2020072101View::OnTranslation)
+	ON_COMMAND(ID_MIRROR_HOR, &CIMGKJY2020072101View::OnMirrorHor)
+	ON_COMMAND(ID_MIRROR_VER, &CIMGKJY2020072101View::OnMirrorVer)
+	ON_COMMAND(ID_ROTATION, &CIMGKJY2020072101View::OnRotation)
 END_MESSAGE_MAP()
 
 // CIMGKJY2020072101View 생성/소멸
@@ -157,7 +182,7 @@ CIMGKJY2020072101Doc* CIMGKJY2020072101View::GetDocument() const // 디버그되
 
 // CIMGKJY2020072101View 메시지 처리기
 
-
+// 영상 축소 프로그램
 void CIMGKJY2020072101View::OnDownSampling()
 {
 	// TODO: 여기에 명령 처리기 코드를 추가합니다.
@@ -174,6 +199,7 @@ void CIMGKJY2020072101View::OnDownSampling()
 }
 
 
+// 영상 확대 프로그램
 void CIMGKJY2020072101View::OnUpSampling()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument();
@@ -183,6 +209,7 @@ void CIMGKJY2020072101View::OnUpSampling()
 }
 
 
+// 양자화 프로그램
 void CIMGKJY2020072101View::OnQuantization()
 {
 	// TODO: Add your command handler code here
@@ -193,9 +220,7 @@ void CIMGKJY2020072101View::OnQuantization()
 }
 
 
-
-
-
+// 화소 값의 상수 덧셈 프로그램
 void CIMGKJY2020072101View::OnSumConstant()
 {
 	// 도큐먼트 클래스 참조
@@ -209,6 +234,7 @@ void CIMGKJY2020072101View::OnSumConstant()
 }
 
 
+// 화소 값의 상수 뺄셈 프로그램
 void CIMGKJY2020072101View::OnSubConstant()
 {
 	// 도큐먼트 클래스 참조
@@ -224,6 +250,7 @@ void CIMGKJY2020072101View::OnSubConstant()
 }
 
 
+// 화소 값의 곱셈 프로그램
 void CIMGKJY2020072101View::OnMulConstant()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument(); // 도큐먼트 클래스 참조
@@ -233,6 +260,7 @@ void CIMGKJY2020072101View::OnMulConstant()
 }
 
 
+// 화소 값의 상수 나눗셈 프로그램
 void CIMGKJY2020072101View::OnDivConstant()
 {
 	// TODO: Add your command handler code here
@@ -243,6 +271,7 @@ void CIMGKJY2020072101View::OnDivConstant()
 }
 
 
+// 화소 값의 AND 프로그램
 void CIMGKJY2020072101View::OnAndOperate()
 {
 	// TODO: 여기에 명령 처리기 코드를 추가합니다.
@@ -253,6 +282,7 @@ void CIMGKJY2020072101View::OnAndOperate()
 }
 
 
+// 화소 값의 OR 프로그램
 void CIMGKJY2020072101View::OnOrOperate()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument();
@@ -262,6 +292,7 @@ void CIMGKJY2020072101View::OnOrOperate()
 }
 
 
+// 화소 값의 XOR 프로그램
 void CIMGKJY2020072101View::OnXorOperate()
 {
 	// TODO: Add your command handler code here
@@ -272,6 +303,7 @@ void CIMGKJY2020072101View::OnXorOperate()
 }
 
 
+// 영상을 반전시키는 프로그램
 void CIMGKJY2020072101View::OnNegaTransform()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument();
@@ -281,6 +313,7 @@ void CIMGKJY2020072101View::OnNegaTransform()
 }
 
 
+// 감마 보정 프로그램
 void CIMGKJY2020072101View::OnGammaCorrection()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument();
@@ -290,6 +323,7 @@ void CIMGKJY2020072101View::OnGammaCorrection()
 }
 
 
+// 영상의 이진 프로그램
 void CIMGKJY2020072101View::OnBinarization()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument();
@@ -299,6 +333,7 @@ void CIMGKJY2020072101View::OnBinarization()
 }
 
 
+// 범위를 강조하는 변환 프로그램
 void CIMGKJY2020072101View::OnStressTransform()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument();
@@ -308,10 +343,249 @@ void CIMGKJY2020072101View::OnStressTransform()
 }
 
 
+// 히스토그램 스트레칭의 프로그램
 void CIMGKJY2020072101View::OnHistoStretch()
 {
 	CIMGKJY2020072101Doc* pDoc = GetDocument();
 	ASSERT_VALID(pDoc);
 	pDoc->OnHistoStretch();
+	Invalidate(TRUE);
+}
+
+
+// 앤드-인 탐색 프로그램
+void CIMGKJY2020072101View::OnEndInSearch()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnEndInSearch();
+	Invalidate(TRUE);
+}
+
+
+// 파일 출력 프로그램
+//void CIMGKJY2020072101View::OnHistogram()
+//{
+//		CIMGKJY2020072101Doc* pDoc = GetDocument();
+//		ASSERT_VALID(pDoc);
+//		pDoc->OnHistogram();
+//		Invalidate(TRUE);
+//}
+//
+//
+//void CIMGKJY2020072101View::OnHistoEqual()
+//{
+//	CIMGKJY2020072101Doc* pDoc = GetDocument();
+//	ASSERT_VALID(pDoc);
+//	pDoc->OnHistoEqual();
+//	Invalidate(TRUE);
+//}
+//
+//
+//void CIMGKJY2020072101View::OnHistoSpec()
+//{
+//	CIMGKJY2020072101Doc* pDoc = GetDocument();
+//	ASSERT_VALID(pDoc);
+//	pDoc->OnHistoSpec();
+//	Invalidate(TRUE);
+//}
+
+// 히스토그램 프로그램
+void CIMGKJY2020072101View::OnHistogram()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnHistogram();
+	Invalidate(TRUE);
+}
+
+
+// 히스토그램 평활화 프로그램
+void CIMGKJY2020072101View::OnHistoEqual()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnHistoEqual();
+	Invalidate(TRUE);
+}
+
+
+// 히스토그램 명세화 프로그램
+void CIMGKJY2020072101View::OnHistoSpec()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnHistoSpec();
+	Invalidate(TRUE);
+}
+
+
+// 엠보싱
+void CIMGKJY2020072101View::OnEmbossing()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnEmbossing();
+	Invalidate(TRUE);
+}
+
+
+// 블러링 프로그램
+void CIMGKJY2020072101View::OnBlurr()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnBlurr();
+	Invalidate(TRUE);
+}
+
+
+// 가우시안 필터 처리
+void CIMGKJY2020072101View::OnGaussianFilter()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnGaussianFilter();
+	Invalidate(TRUE);
+}
+
+
+// 샤프닝 처리 프로그램
+void CIMGKJY2020072101View::OnSharpening()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnSharpening();
+	Invalidate(TRUE);
+}
+
+
+// 고주파 필터 샤프닝 처리 프로그램
+void CIMGKJY2020072101View::OnHpfSharp()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnHpfSharp();
+	Invalidate(TRUE);
+}
+
+
+// 저주파 필터 샤프닝 처리 프로그램
+void CIMGKJY2020072101View::OnLpfSharp()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnLpfSharp();
+	Invalidate(TRUE);
+}
+
+
+// 이동과 차분 처리 프로그램
+void CIMGKJY2020072101View::OnDiffOperatorHor()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnDiffOperatorHor();
+	Invalidate(TRUE);
+}
+
+
+// 유사 연사 에지 검출 처리 프로그램
+void CIMGKJY2020072101View::OnHomogenOperator()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnHomogenOperator();
+	Invalidate(TRUE);
+}
+
+
+// 라플라시안 처리 프로그램
+void CIMGKJY2020072101View::OnLaplacian()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnLaplacian();
+	Invalidate(TRUE);
+}
+
+
+// 가장 인접한 이웃 화소 보간법
+void CIMGKJY2020072101View::OnNearest()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnNearest();
+	Invalidate(TRUE);
+}
+
+
+// 양선형 보간법
+void CIMGKJY2020072101View::OnBilinear()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnBilinear();
+	Invalidate(TRUE);
+}
+
+
+// 미디언 표현을 이용한 서브 샘플링 프로그램
+void CIMGKJY2020072101View::OnMedianSub()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnMedianSub();
+	Invalidate(TRUE);
+}
+
+
+// 평균 표현을 이용한 서브 샘플링 프로그램
+void CIMGKJY2020072101View::OnMeanSub()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnMeanSub();
+	Invalidate(TRUE);
+	
+}
+
+
+// 이동 기하학 변환 프로그램
+void CIMGKJY2020072101View::OnTranslation()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnTranslation();
+	Invalidate(TRUE);
+}
+
+
+// 좌우 대칭 기하학 변환 프로그램
+void CIMGKJY2020072101View::OnMirrorHor()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnMirrorHor();
+	Invalidate(TRUE);
+}
+
+
+// 상하 대칭 기하학 변환 프로그램
+void CIMGKJY2020072101View::OnMirrorVer()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnMirrorVer();
+	Invalidate(TRUE);
+}
+
+
+// 영상의 회전 기하학 변환 프로그램
+void CIMGKJY2020072101View::OnRotation()
+{
+	CIMGKJY2020072101Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnRotation();
 	Invalidate(TRUE);
 }

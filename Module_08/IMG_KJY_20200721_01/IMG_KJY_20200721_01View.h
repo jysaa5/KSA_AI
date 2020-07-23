@@ -60,6 +60,28 @@ public:
 	afx_msg void OnBinarization();
 	afx_msg void OnStressTransform();
 	afx_msg void OnHistoStretch();
+	afx_msg void OnEndInSearch();
+
+	afx_msg void OnHistogram();
+	afx_msg void OnHistoEqual();
+	afx_msg void OnHistoSpec();
+	afx_msg void OnEmbossing();
+	afx_msg void OnBlurr();
+	afx_msg void OnGaussianFilter();
+	afx_msg void OnSharpening();
+	afx_msg void OnHpfSharp();
+	afx_msg void OnLpfSharp();
+	afx_msg void OnDiffOperatorHor();
+	afx_msg void OnHomogenOperator();
+	afx_msg void OnLaplacian();
+	afx_msg void OnNearest();
+	afx_msg void OnBilinear();
+	afx_msg void OnMedianSub();
+	afx_msg void OnMeanSub();
+	afx_msg void OnTranslation();
+	afx_msg void OnMirrorHor();
+	afx_msg void OnMirrorVer();
+	afx_msg void OnRotation();
 };
 
 #ifndef _DEBUG  // IMG_KJY_20200721_01View.cpp의 디버그 버전
