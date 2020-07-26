@@ -480,7 +480,6 @@ void CIMGKJY20200725Doc::OnFrameComb()
 	masktemp = NULL;
 	result1 = NULL;
 	result2 = NULL;
-	m_outImg = NULL;
 
 	AfxMessageBox(L"합성할 영상을 입력하시오");
 
