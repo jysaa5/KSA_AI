@@ -50,6 +50,7 @@ public:
 	afx_msg void OnFrameAnd();
 	afx_msg void OnNegaTransform();
 	afx_msg void OnFrameComb();
+	afx_msg void OnFrameComb01();
 };
 
 #ifndef _DEBUG  // IMG_KJY_20200725View.cpp의 디버그 버전

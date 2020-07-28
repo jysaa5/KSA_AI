@@ -36,6 +36,7 @@ BEGIN_MESSAGE_MAP(CIMGKJY20200725View, CView)
 
 	ON_COMMAND(ID_NEGA_TRANSFORM, &CIMGKJY20200725View::OnNegaTransform)
 	ON_COMMAND(ID_FRAME_COMB, &CIMGKJY20200725View::OnFrameComb)
+	ON_COMMAND(ID_FRAME_COMB_01, &CIMGKJY20200725View::OnFrameComb01)
 END_MESSAGE_MAP()
 
 // CIMGKJY20200725View 생성/소멸
@@ -161,7 +162,7 @@ void CIMGKJY20200725View::OnDraw(CDC *pDC)
 		width = pDoc->dibHi.biWidth;
 		rwsize = WIDTHBYTES(pDoc->dibHi.biBitCount * pDoc->dibHi.biWidth);
 		BmInfo->bmiHeader = pDoc->dibHi;
-		SetDIBitsToDevice(pDC->GetSafeHdc(), 0, 0, width, height, 0, 0, 0, height, pDoc->m_inImg, BmInfo, DIB_RGB_COLORS);
+		SetDIBitsToDevice(pDC->GetSafeHdc(), 0, 0, width, height, 0, 0, 0, height, pDoc->m_outImg, BmInfo, DIB_RGB_COLORS);
 
 	}else {
 		//8비트 컬러일 경우
@@ -180,6 +181,7 @@ void CIMGKJY20200725View::OnDraw(CDC *pDC)
 				//pDC->SetPixel(j,i,RGB(R,G,B));
 				//영상 반전출력
 
+				//pDC->SetPixel(j+ pDoc->dibHi.biWidth+10, pDoc->dibHi.biHeight - i - 1, RGB(R, G, B));
 				pDC->SetPixel(j, pDoc->dibHi.biHeight - i - 1, RGB(R, G, B));
 			}
 
@@ -284,5 +286,14 @@ void CIMGKJY20200725View::OnFrameComb()
 	CIMGKJY20200725Doc* pDoc = GetDocument();
 	ASSERT_VALID(pDoc);
 	pDoc->OnFrameComb();
+	Invalidate(TRUE);
+}
+
+
+void CIMGKJY20200725View::OnFrameComb01()
+{
+	CIMGKJY20200725Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	pDoc->OnFrameComb01();
 	Invalidate(TRUE);
 }

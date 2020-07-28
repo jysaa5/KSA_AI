@@ -86,4 +86,12 @@ public:
 	void OnFrameAnd();
 	void OnNegaTransform();
 	void OnFrameComb();
+
+	// AND 결과
+	unsigned char* and_result1;
+	unsigned char* and_result2;
+	
+	// sum 결과
+	unsigned char* sum_result;
+	void OnFrameComb01();
 };
