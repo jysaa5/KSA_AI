@@ -175,4 +175,10 @@
   <li>
     <a href="https://github.com/ksa-banana/Java_Programming">공학용 계산기</a>
   </li>
+  <li>
+    <a href="https://github.com/ksa-banana/MFC_ImageProcessing">BMP파일 영상 처리</a>
+  </li>
+  <li>
+    <a href="https://github.com/ksa-banana/DeepLearning_ImageProcessing">영상 데이터 딥러닝</a>
+  </li>
   </ul>
