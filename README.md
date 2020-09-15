@@ -4,7 +4,7 @@
 <hr>
 <h3>[교육 과정]</h3>
 <ul>
-  <li> Language: C | Java | Python </li>
+  <li> Language: C / C++ | Java | Python </li>
   <li> Database: MySQL | MariaDB</li>
   <li> Big Data: ElasticSearch | Kibana | Splunk | Kaggle | 공공데이터포털</li>
   <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | PyCharm | eXERD | Anaconda | Android Studio | Visual Studio Code  </li>
