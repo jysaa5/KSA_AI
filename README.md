@@ -42,8 +42,8 @@
   <li>CentOS</li>
   <li>PuTTY</li>
   <li>FileZilla</li>
-  <li>tomcat8</li>
-  <li>mariadb</li>
+  <li>Tomcat8</li>
+  <li>Mariadb</li>
   <li>eXERD</li>
   </ul>
   
