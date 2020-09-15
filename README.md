@@ -7,7 +7,8 @@
   <li> Language: C | C++ | Java | Python </li>
   <li> Database: MySQL | MariaDB</li>
   <li> Big Data: ElasticSearch | Kibana | Splunk | Kaggle | 공공데이터포털</li>
-  <li> Tool: Visual Studio 2019 | Notepad++ | FileZilla | Eclipse | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | PyCharm | eXERD | Anaconda | Android Studio | Visual Studio Code  </li>
+  <li> IDE: Visual Studio 2019 | Visual Studio Code | Eclipse | Android Studio | PyCharm </li>
+  <li> Tool: Notepad++ | FileZilla | MySQL Workbench 8.0CE | sqldeveloper | HeidiSQL | Jupyter Notebook | eXERD | Anaconda </li>
   <li> Hypervisor: VMware Workstation 15 Player | Oracle VM VirtualBox </li>
   <li> Operating-System-Level Virtualization: Docker </li>
   <li> Web Application Server(WAS): Tomcat </li>
