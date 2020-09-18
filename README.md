@@ -15,7 +15,9 @@
   <li> Server: Apache HTTP Server </li>
   <li> Terminal Emulator: PuTTY</li>
   <li> Server Side Software: node.js </li>
+  <li> Library: Pandas </li>
   <li> Machine Learning Library: TensorFlow </li>
+  <li> Deep Learning Framework: Keras </li>
   <li> Operating System(OS): Windows | Linux | CentOS</li>
   <li> Network monitoring: Nagios </li>
   <li> Packet Analyzer: Wireshark </li>
