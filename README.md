@@ -148,7 +148,8 @@
   
   <h4> [협업 기업 프로젝트] 쇼핑몰 웹 + 협업 기반 필터링을 이용한 추천 시스템 + 인공지능을 이용한 서비스 </h4>
   <ul>
-  <li>Node.js / Express.js / Vue.js</li>
+  <li>Front-end: JavaScript, Vue.js</li> 
+  <li>Back-end: JavaScript, Node.js, Express.js</li>
   </ul>
   <hr>
 
